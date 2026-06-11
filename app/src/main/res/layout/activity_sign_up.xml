@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -8,12 +7,11 @@
     >
 
     <TextView
-        android:id="@+id/Bienvenida"
+        android:id="@+id/Registro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bienvenid@"
-        android:textSize="28sp"
-     />
+        android:text="Crear cuenta"
+ />
 
     <EditText
         android:id="@+id/NombreUsuario"
@@ -27,26 +25,13 @@
         android:layout_height="wrap_content"
         android:hint="Contraseña"
         android:inputType="textPassword"
- />
+ " />
 
     <Button
-        android:id="@+id/IniciarSesion"
+        android:id="@+id/Registrarse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Iniciar sesión"
+        android:text="Registrarse"
  />
-
-    <TextView
-        android:id="@+id/NoTienesCuenta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="¿No tienes cuenta?"
- />
-
-    <Button
-        android:id="@+id/CrearCuenta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Registrar" />
 
 </LinearLayout>
